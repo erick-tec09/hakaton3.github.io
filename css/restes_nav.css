@@ -109,3 +109,61 @@ font-family: 'Titillium Web', sans-serif;
 
 
 }
+
+/* FORMULARIO */
+
+form{ 
+    
+   
+    width: 100%;
+    
+    margin-left: 100px;
+    
+}
+.form-items{
+    
+    width: 250px;
+    
+}
+input{
+
+     border: 1px  solid #e6711e;
+     outline: none;
+     margin: 10px 0px;
+     display: inline-block;
+
+}
+label{
+    display: block;
+    text-align: left;
+    font-family: 'Amiko', sans-serif;
+}
+
+.imput_form{
+
+    padding: 10px 0px 10px 10px;
+    width: 250px;
+    color: rgb(182, 182, 182);
+    border-radius: 10px;
+   
+    
+}
+
+.btn-enviar{
+
+ padding: 10px 0px;
+  width: 120px;
+  display: block;
+  color: white;
+  background: #d2691e;
+  border: 1px solid white;
+
+}
+.btn-enviar:hover{
+
+ 
+     color: #d2691e;
+     background:  none;
+     border: 1px solid #d2691e;
+     transition: color 0.5;
+   }
