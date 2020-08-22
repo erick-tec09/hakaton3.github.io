@@ -1,0 +1,111 @@
+*, body, *::before, *::after{
+
+     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+  
+}
+
+
+li{
+    list-style: none;
+}
+a{
+
+    text-decoration: none;
+}
+/*
+
+font-family: 'Amiko', sans-serif;
+
+font-family: 'Titillium Web', sans-serif;
+    
+*/
+.header-home{
+
+    width: 100%;
+    text-align: center;
+    background: #d2691e;
+    color: white;
+}
+.header-title{
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:  500;
+}
+.title-bold{
+    font-family: 'Titillium Web', sans-serif;
+     font-size: inherit;
+     font-weight: bold;
+     letter-spacing: 2px;
+     transition:  all 0.5s;
+}
+.title-bold:hover{
+  
+     letter-spacing:  initial;
+}
+.menu{
+  
+    width: 30%;
+ 
+    float: left;
+    padding-top: 50px;
+    height: 300px;
+  
+  
+  
+}
+.list-home{
+
+    text-align: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid white;
+    background: #734D32;
+    width: 200px;
+    transition: width 2s;
+  
+}
+
+.list-home:hover{
+
+    background: #734d3293;
+    transition:  all 0.5s;
+    transition: width 2s;
+    width: 250px;
+}
+
+.home-link{
+    color: white;
+    font-family: 'Amiko', sans-serif;
+    transition:  all 0.5s;
+}
+
+.list-home:hover .home-link{
+
+    letter-spacing: 3px;
+   
+}
+
+.section-principal{
+   
+    float: right;
+    width: 70%;
+    text-align: center;
+    height: 300px;
+    
+    
+}
+
+.pie{
+   clear: both;
+    background: #d2691e;
+    width: 100%;
+    color: white;
+    font-family: 'Amiko', sans-serif;
+    text-align: center;
+    padding: 20px;
+
+
+}
