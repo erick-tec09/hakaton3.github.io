@@ -35,9 +35,9 @@ font-family: 'Titillium Web', sans-serif;
 
 .hero{
    background: url(https://blog.hotmart.com/blog/2018/02/BLOG_freelancer-ES.png) no-repeat;
-   height: 300px;
-   width: 100%;
-   background-size: cover;
+   height: 800px;
+width: 100%;
+background-size: cover;
 }
 
 .title-h1{
@@ -111,10 +111,20 @@ input {
 
 }
 
+h3 {
+   display: inherit;
+   color: white;
+   text-transform: uppercase;
+   padding: 10px 0px;
+}
+.skills{
 
+   background: tomato;
 
+}
 .enviar{
    display: block;
+ 
    background: tomato;
    color:  white;
    padding: 10px 0px;
@@ -136,4 +146,16 @@ input {
 
  .foother-p{
     padding: 20px 0px;
+ }
+
+ .clients{
+
+
+
+   margin: 0px auto;
+   text-align: center;
+ }
+
+ .items{
+    display: inline-block;
  }
