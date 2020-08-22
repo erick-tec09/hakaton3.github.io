@@ -156,6 +156,26 @@ h3 {
    text-align: center;
  }
 
- .items{
-    display: inline-block;
+
+ .h3{
+
+   color: black;
  }
+.bar{
+   width: 200px;
+   background: rgb(26, 25, 25);
+
+   height: 10px;
+   position: relative;
+  
+}
+
+.bar::before{
+   content: " ";
+   width: 900px;
+   background: red;
+   position: absolute;
+   top: 0;
+  
+   
+}
