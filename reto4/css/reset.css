@@ -35,8 +35,8 @@ font-family: 'Titillium Web', sans-serif;
 
 .hero{
    background: url(https://blog.hotmart.com/blog/2018/02/BLOG_freelancer-ES.png) no-repeat;
-   height: 800px;
-width: 100%;
+   height: 500px;
+
 background-size: cover;
 }
 
@@ -46,12 +46,16 @@ background-size: cover;
    text-transform: uppercase;
    font-family: 'Titillium Web', sans-serif;
    text-align: center;
-   font-size: 30px;
+   font-size: 35px;
 
    padding: 20px 0px;
 }
 
-
+article {
+   width: 200px;
+   
+   margin: 0px auto;
+}
 .title-h2{
    color: black;
 
@@ -67,11 +71,16 @@ background-size: cover;
 .title{
    color: white;
    text-transform: uppercase;
+   font-family: 'Amiko', sans-serif;
+   font-size: 32px;
+   font-size: 32px;
+    width: 400px;
+   
 
 }
 
 .parrafo{
-   color: white;
+   color: rgb(85, 82, 82);
    font-family: 'Amiko', sans-serif;
     padding: 10px 0px;
     font-weight: 100;
@@ -88,29 +97,54 @@ background-size: cover;
 
 }
 
+.aboud{
+
+   
+    margin: 30px auto;
+}
 
 form{
 
 
-   width: 200px;
-   margin: 0px auto;
+   width: 700px;
+   margin: 30px auto;
+
+   text-align: center;
+
   
+  
+}
+
+.img-casuuser{
+   width: 200px;
 }
 img{
 
    width: 100px;
 }
 
-input {
-    display: block;
+input, textarea {
+   
      padding: 10px 0px;
      margin: 10px;
-   
+     width: 300px;
      outline: none;
-      border: 1px  solid red;
-
+     border: 0;
+      display: inline;
+     
 }
 
+.imput{
+
+   border: 1px solid rgb(134, 134, 134);
+}
+.texterea{
+   width: 630px;
+   padding: 10px 0px;
+   height: 100px;
+    resize: none;
+   
+}
 h3 {
    display: inherit;
    color: white;
@@ -123,14 +157,15 @@ h3 {
 
 }
 .enviar{
-   display: block;
+  
  
    background: tomato;
    color:  white;
    padding: 10px 0px;
-   width: 100px;
+  
    text-align: center;
    border-radius: 10px;
+   outline: none;
 }
  footer{
 
